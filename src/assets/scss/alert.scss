@@ -1,0 +1,16 @@
+.custom-alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translateY(-100px);
+  transition: transform 0.3s;
+
+  .alert {
+    text-align: center;
+  }
+
+  &.open {
+    transform: translateY(0);
+  }
+}

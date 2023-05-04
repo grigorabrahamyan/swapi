@@ -1,0 +1,14 @@
+.current-people {
+  .current-people-row {
+    margin-bottom: 50px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .current-people-buttons {
+    button {
+      width: 100%;
+    }
+  }
+}
